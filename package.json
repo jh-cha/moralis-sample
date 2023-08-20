@@ -1,0 +1,17 @@
+{
+  "name": "moralis-server",
+  "version": "0.0.0",
+  "description": "moralis-server for superSwap",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.22.5",
+    "express": "^4.18.2",
+    "moralis": "^2.22.5"
+  }
+}
