@@ -5,8 +5,8 @@ const { EvmChain } = require("@moralisweb3/common-evm-utils");
 const app = express();
 const port = 3535;
 
-const MORALIS_API_KEY = "Gd5MSArzAHWonWRrEbpOMs4gmcSfMbaW292mvjIxr92X3NpZayp1NSe9UTI7F9gV";
-const address = "0xf2E20495012CF25dEDEF60b238fCE966252609E6";
+const MORALIS_API_KEY = "";
+const address = "";
 const chain = EvmChain.ETHEREUM;
 
 async function getDemoData() {
